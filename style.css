@@ -87,3 +87,30 @@
     text-decoration: underline;
   }
   
+  @media (max-width: 500px){
+    img {
+      display: none
+    }
+    body {
+      text-align: center;
+    }
+    h1 {
+      font-size: 60px;
+    }
+    h3 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 14px;
+    }
+    #invisible {
+      display: none;
+    }
+    .col-6 {
+      margin-left: 100px;
+    }
+    .primary-link {
+      padding: 12px 8px;
+      font-size: 12px;
+    }
+  }
